@@ -1,0 +1,169 @@
+@font-face {
+   font-family: 'suwargi';
+   src: url('../fonts/Suwargi.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'roboto';
+   src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+*{box-sizing: border-box;}
+body{
+    border: 0px solid red;
+    margin: 0px;
+    font-family: 'roboto';   
+}
+#logo{
+    width: 170px;
+    margin-top: 2.5px;
+    margin-left: 52.5px;
+}
+.navbar{
+    font-family: 'roboto';
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    margin-right: 48px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: #86d1d1;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;
+}
+a:hover{
+    color: #61C3C3;
+}
+section{
+    background-color: #06405c;
+    height: 1300px;
+}
+h1{
+    font-family: 'suwargi';
+    font-size: 36pt;
+    font-weight: lighter;
+    text-align: center;
+    background-color: darkcyan;
+    color: ghostwhite;
+    padding: 10px;
+    margin: 0px;
+}
+.taiwan1{
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 85px;
+}
+.taiwan1 img{
+    float: left;
+    border-radius: 10px;
+    border: 8px solid #BBF3F4;
+    margin-right: 20px;
+}
+.text1 h2{
+    font-family: 'suwargi';
+    font-size: 18pt;
+    padding: 2px;
+    color: darkcyan;
+}
+.text1{
+    font-size: 12pt;
+    padding-right: 425px;
+    line-height: 1.1;
+    color: aliceblue;
+}
+.text1 p a{
+    color: aquamarine;
+}
+.clear{
+    clear: both;
+}
+.taiwan2{
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 85px;
+}
+.taiwan2 img{
+    float: right;
+    border-radius: 10px;
+    border: 8px solid #BBF3F4;
+    margin-left: 20px;
+    
+}
+.text2 h2{
+    font-family: 'suwargi';
+    font-size: 18pt;
+    padding: 2px;
+    color: darkcyan;
+}
+.text2{
+    font-size: 12pt;
+    margin-left: 430px;
+    line-height: 1.1;
+     color: aliceblue;
+}
+.text2 p a{
+    color: aquamarine;
+}
+.taiwan3{
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 85px;
+}
+.taiwan3 img{
+    float: left;
+    border-radius: 10px;
+    border: 8px solid #BBF3F4;
+    margin-right: 20px;
+}
+.text3 h2{
+    font-family: 'suwargi';
+    font-size: 18pt;
+    padding: 2px;
+    color: darkcyan;
+}
+.text3{
+    font-size: 12pt;
+    padding-right: 425px;
+    line-height: 1.1;
+    color: aliceblue;
+    
+}
+.text3 p a{
+    color: aquamarine;
+}
+.taiwan4{
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 85px;
+}
+.taiwan4 img{
+    float: right;
+    border-radius: 10px;
+    border: 8px solid #BBF3F4;
+    margin-left: 20px;
+}
+.text4 h2{
+    font-family: 'suwargi';
+    font-size: 18pt;
+    padding: 2px;
+    color: darkcyan;
+}
+.text4{
+    font-size: 12pt;
+    margin-left: 430px;
+    line-height: 1.1;
+    color: aliceblue;
+}
+.text4 p a{
+    color: aquamarine;
+}

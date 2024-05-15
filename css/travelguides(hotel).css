@@ -1,0 +1,75 @@
+@font-face {
+   font-family: 'suwargi';
+   src: url('../fonts/Suwargi.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'roboto';
+   src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+*{box-sizing: border-box;}
+body{
+    border:0px solid red;
+    margin: 0px;
+    margin-right: 70px;
+    font-family: 'roboto';  
+    
+}
+h1{
+    font-family: 'suwargi';
+    font-size: 36pt;
+    text-align: center;
+    background-color: darkcyan;
+    color: ghostwhite;
+    padding: 10px;
+}
+ .hotel1{
+    width: 100%;
+}
+.hotel1 img{
+    float: left;
+    border-radius: 10px;
+    border: 8px solid #BBF3F4;
+    margin-right: 20px;
+}
+.text1 h2{
+    font-family: 'suwargi';
+    font-size: 18pt;
+    padding: 2px;
+    color: darkcyan;
+}
+.text1{
+    font-size: 12pt;
+    line-height: 1.1;
+    padding-right: 260px;
+    color: aliceblue;
+}
+.text1 p a{
+    color: aquamarine;
+}
+.clear{
+    clear: both;
+}
+.hotel2{
+    width: 100%;
+}
+.hotel2 img{
+    float: left;
+    border-radius: 10px;
+    border: 8px solid #BBF3F4;
+    margin-right: 20px;
+}
+.text2 h2{
+    font-family: 'suwargi';
+    font-size: 18pt;
+    padding: 2px;
+    color: darkcyan;
+}
+.text2{
+    font-size: 12pt;
+    line-height: 1.1;
+    padding-right: 260px;
+    color: aliceblue;
+}
+.text2 p a{
+    color: aquamarine;
+}

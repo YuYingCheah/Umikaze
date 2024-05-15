@@ -1,0 +1,91 @@
+@font-face {
+   font-family: 'suwargi';
+   src: url('../fonts/Suwargi.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'roboto';
+   src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+*{box-sizing: border-box;}
+body{
+    border: 0px solid red;
+    margin: 0px;
+    font-family: 'roboto';
+    background: linear-gradient(to bottom, white 50%, #06405c 100%);
+    background-color: #06405c;
+}
+#logo{
+    width: 170px;
+    margin-top: 2.5px;
+    margin-left: 52.5px;
+}
+.navbar{
+    font-family: 'roboto';
+    padding-right: 15px;
+    padding-left: 15px;   
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    margin-right: 48px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: #86d1d1;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;
+}
+a:hover{
+    color: #61C3C3;
+}
+.slogan{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+h1{
+    font-family: 'suwargi';
+    font-size: 64pt;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2{
+    font-family: 'suwargi';
+    font-size: 14pt;
+    font-weight: lighter;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+section{
+    background-color: #06405c;
+    margin: 0px;
+    height: 400px;
+    position: relative;
+    bottom: 5px;
+}
+.aboutbox{
+    margin: auto;
+    width: 33.33%;
+    border: 0px solid red;
+    padding: 10px;
+    text-align: justify;
+    color: white;
+}
+p{
+    font-size: 14.5pt;
+    text-indent: 40px;
+}
+ 

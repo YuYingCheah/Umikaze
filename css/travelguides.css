@@ -1,0 +1,139 @@
+@font-face {
+   font-family: 'suwargi';
+   src: url('../fonts/Suwargi.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'roboto';
+   src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+*{box-sizing: border-box;}
+body{
+    border: 0px solid red;
+    margin: 0px;
+    font-family: 'roboto';  
+}
+#logo{
+    width: 170px;
+    margin-top: 2.5px;
+    margin-left: 52.5px;
+}
+.navbar{
+    font-family: 'roboto';
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    margin-right: 48px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: #86d1d1;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;
+}
+a:hover{
+    color: #61C3C3;
+}
+section{
+    background-color:#06405c;
+    margin: 0px;
+}
+.domain::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'suwargi';
+    font-size: 36pt;
+    color: white;
+}
+.text1, .text2, .text3{
+    text-align: center;
+}
+.domain1, .domain2, .domain3{
+    display: inline-block;
+    width: 30%; 
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.domain{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+.domain1{
+    margin-left: 25px;
+}
+.image {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+#container:hover .image {
+  opacity: 0.5;
+}
+.button {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'suwargi';
+    border-radius: 4px;
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.4s;
+    cursor: pointer;
+    transition: .4s ease;
+    opacity: 0;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #BBF3F4; 
+    color: darkslategrey;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 1;
+  top: 0;
+  right: -20px;
+  transition: 0.4s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#container:hover .button {
+  opacity: 1;
+}

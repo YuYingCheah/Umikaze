@@ -1,0 +1,47 @@
+@font-face {
+   font-family: 'suwargi';
+   src: url(Suwargi.ttf) format('truetype');
+}
+@font-face {
+   font-family: 'roboto';
+   src: url(Roboto-Regular.ttf) format('truetype');
+}
+* {box-sizing: border-box;}
+body{
+    margin: 0px;
+}
+.topdestination::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'suwargi';
+}
+.text1, .text2, .text3{
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+.destination1, .destination2, .destination3{
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.topdestination{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+.destination1{
+    margin-left: 25px;
+}

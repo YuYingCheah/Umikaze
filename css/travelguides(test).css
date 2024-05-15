@@ -1,0 +1,7 @@
+*{box-sizing: border-box;}
+body{
+    border: 0px solid red;
+    margin: 0px;
+    font-family: roboto;   
+}
+/* Clearfix (clear floats) */
