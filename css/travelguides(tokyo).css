@@ -52,7 +52,7 @@ a:hover{
     padding-left: 54px;
     border: 0px solid red;
     background-color: #06405c;
-    height: 755px;
+    height: 854px;
 }
 h1{
     font-size: 36pt;
@@ -90,12 +90,13 @@ h1{
 }
 section{
     float: left;
-    width: 79.5%;
+    width: 80%;
     border: 0px solid red;
     background-color: #06405c;
 }
 iframe{
     width: 100%;
-    height: 750px;
+    height: 850px;
+    
     border: none;
 }
